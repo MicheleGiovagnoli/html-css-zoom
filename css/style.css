@@ -68,6 +68,12 @@ header {
 
 }
 
+.hover:hover {
+
+    color: red;
+
+}
+
 /*  */
 
 /*  */
@@ -152,6 +158,8 @@ header {
 
 }
 
+
+
 .object-stopvideo {
   
     display: flex;
@@ -213,4 +221,10 @@ header {
     
     padding-top:8px;
     font-size: 12px;
+}
+
+.footer-item-option:hover {
+
+    color: red;
+
 }
