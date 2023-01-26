@@ -43,13 +43,14 @@ header {
 
 .option-object-speaker {
     
-    width: 120px;
+    width: 150px;
     height: 20px;
-    background-color: grey;
+    background-color: #4A4A4A;
     border-radius: 3px;
     position: absolute;
-    top: 0px;
+    top: 2px;
     right: 50px;
+    text-align: center;
 
 }
 
@@ -58,11 +59,12 @@ header {
     border-radius: 3px;
     width: 30px;
     height: 20px;
-    background-color: grey;
+    background-color: #4A4A4A;
     border-radius: 3px;
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 2px;
+    right: 10px;
+    text-align: center;
 
 }
 
@@ -74,7 +76,7 @@ header {
 
     background-color: black;
     width: 100vw;
-    padding-top: 100px;   
+    padding-top: 80px;  
 
 }
 
@@ -106,12 +108,13 @@ header {
 
 }
 
-.main-pictures span {
+.main-pictures-text {
 
     position: absolute;
     bottom: 0px;
     left: 0px;
     color: white;
+    background-color: rgba(0, 0, 0, 0.39);
     
 }
 
@@ -121,36 +124,44 @@ header {
 
 .footer-bar {
 
-    background-color: black;
+    background-color: #222222;
     width: 100vw;
-    height: 100px;
+    height: 80px;
     position: fixed;
     bottom: 0px;
     left: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: whitesmoke ;
 
 }
 
 .footer-left {
 
-    background-color: orange;
-    width: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
-.footer-center {
+.object-mute {
 
-    background-color: orange;
-    width: 500px;
+    display: flex;
+    flex-direction: column;    
+
+}
+
+.object-stopvideo {
+  
+    display: flex;
+    flex-direction: column;
 
 }
 
 .footer-center-list {
+
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,12 +169,42 @@ header {
 
 }
 
+.footer-center-list li {
+     
+    display: flex;    
+    flex-direction: column;
+
+}
+
 .footer-right {
 
-    background-color: orange;
-    width: 200px;
+    background-color: #4A4A4A;
+    color: red;
+    height: 100%;
+    width: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+
+.fa-solid{
+    text-align: center;
+}
+
+.footer-item-space {
+
+    padding: 5px 10px;
+
+} 
+.footer-item-option {
+
+    font-size: 30px;
+
+}
+
+.footer-center-text {
+
+    margin-bottom: 5px;
 
 }
