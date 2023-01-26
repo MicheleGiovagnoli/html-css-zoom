@@ -1,14 +1,9 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-/* DEBUG */
-
-.de-bug{
-
-}
 
 /*  */
 
@@ -44,7 +39,7 @@ header {
 
 /*  */
 
-.main-background-container{
+.main-background-container {
 
     background-color: black;
     width: 100vw;
@@ -53,7 +48,7 @@ header {
 
 }
 
-.main-container{
+.main-container {
     
     background-color: green;
     width: 85vw;
@@ -63,23 +58,27 @@ header {
 
 }
 
-.main-pictures{
+.main-pictures {
 
     width: 200px;
-    height: 100px;
-    background-image: url(https://picsum.photos/200/300);
-    background-repeat: none;
-    background-size: contain;
+    height: 100px; 
     position: relative;
 
 }
 
-.main-pictures span{
+.main-pictures img {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.main-pictures span {
 
     position: absolute;
     bottom: 0px;
     left: 0px;
-
+    
 }
 
 /*  */
